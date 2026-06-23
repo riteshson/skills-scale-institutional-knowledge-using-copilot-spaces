@@ -4,13 +4,40 @@ This folder contains OctoAcme's project management and process documents. The RE
 
 ## Overview of OctoAcme Project Management Processes
 
-OctoAcme follows a structured, lifecycle-based approach to project management grounded in clear ownership, iterative delivery, and data-informed decision-making. The framework spans five core phases: **Initiation** (validating business need and stakeholder alignment), **Planning** (breaking work into shippable increments with clear acceptance criteria), **Execution** (day-to-day delivery with daily standups and regular demos), **Release** (standardized deployment with rollback plans), and **Close & Retrospective** (capturing learnings for continuous improvement). This structured progression ensures projects move through well-defined decision gates, with success metrics and risk management embedded at each stage rather than as afterthoughts.
+OctoAcme follows a structured, lifecycle-based approach to project management grounded in clear ownership, iterative delivery, and data-informed decision-making. The framework spans five core phases:
 
-The organization defines clear roles and responsibilities to ensure accountability and reduce dependencies. **Project Managers** coordinate schedules, risks, and communications while maintaining project documentation and status reporting. **Product Managers** own the product vision, prioritize the backlog, and validate solutions through metrics and user research. **Developers** design and build features while contributing to estimation, planning, and technical risk identification. This role clarity, combined with a "clear ownership" principle, prevents gaps and ensures stakeholders know who to engage at each phase. The team rhythm—daily 15-minute standups, weekly delivery syncs, and regular demos—creates multiple touchpoints for alignment without overwhelming the organization.
+- **Initiation** — Validating business need and stakeholder alignment to decide go/no-go for planning
+- **Planning** — Breaking work into shippable increments with clear acceptance criteria, estimation, and release planning
+- **Execution** — Day-to-day delivery with daily standups, regular demos, project boards (Backlog → Ready → In Progress → In Review → QA → Done), and small PRs with CI checks
+- **Release** — Standardized deployment with pre-release checks, automated deployments when possible, smoke tests, and rollback plans
+- **Close & Retrospective** — Capturing learnings for continuous improvement through "what went well" retrospectives and tracked action items
 
-Quality and risk management are woven throughout the execution process rather than confined to end-stage testing. OctoAcme requires unit tests, integration tests, and end-to-end smoke tests before release, with automated CI/CD pipelines enforcing linting and security scanning. The organization maintains an active **Risk Register** (tracking ID, description, impact, likelihood, owner, and mitigation) reviewed at weekly syncs and escalated through defined levels: team-level triage → PM escalation to Product Lead → sponsor-level escalation for business-impacting issues. Similarly, communication is standardized through templates (weekly status, incident reports) and multiple stakeholder groups, ensuring transparency from the team level to executive sponsors and support functions.
+This structured progression ensures projects move through well-defined decision gates, with success metrics and risk management embedded at each stage rather than as afterthoughts.
 
-Finally, OctoAcme emphasizes continuous improvement through retrospectives held after sprints, releases, or incidents. These sessions capture "what went well" and "what could be improved," then convert insights into tracked action items with clear owners and success criteria. This closing-the-loop discipline—measuring the impact of improvements and celebrating wins—reinforces a culture of learning and psychological safety, helping teams iterate not just on the product but on their own processes.
+### Clear Roles & Accountability
+
+OctoAcme defines clear roles to ensure accountability and reduce dependencies:
+
+- **Project Managers** coordinate schedules, risks, and communications while maintaining project documentation and status reporting
+- **Product Managers** own the product vision, prioritize the backlog, and validate solutions through metrics and user research
+- **Developers** design and build features while contributing to estimation, planning, and technical risk identification
+- **QA/Testing** validates quality and acceptance criteria
+
+This role clarity prevents gaps and ensures stakeholders know who to engage at each phase. The team rhythm—daily 15-minute standups, weekly delivery syncs, and regular demos—creates multiple touchpoints for alignment without overwhelming the organization.
+
+### Quality & Risk Management Throughout Execution
+
+Quality and risk management are woven throughout the execution process rather than confined to end-stage testing:
+
+- Unit tests, integration tests, and end-to-end smoke tests are required before release
+- Automated CI/CD pipelines enforce linting and security scanning
+- An active **Risk Register** tracks ID, description, impact, likelihood, owner, and mitigation
+- Risks are reviewed at weekly syncs and escalated through defined levels: team-level triage → PM escalation to Product Lead → sponsor-level escalation for business-impacting issues
+- Communication is standardized through templates (weekly status, incident reports) for transparency from the team level to executive sponsors and support functions
+
+### Continuous Improvement Culture
+
+OctoAcme emphasizes continuous improvement through retrospectives held after sprints, releases, or incidents. These sessions capture "what went well" and "what could be improved," then convert insights into tracked action items with clear owners and success criteria. This closing-the-loop discipline—measuring the impact of improvements and celebrating wins—reinforces a culture of learning and psychological safety, helping teams iterate not just on the product but on their own processes.
 
 ## Process Summary
 
